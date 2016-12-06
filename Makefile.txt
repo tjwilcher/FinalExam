@@ -1,0 +1,4 @@
+count: wc.cc
+	g++ wc.cc
+wc.o: wc.cc
+	g++ -C wc.cc
